@@ -1,0 +1,118 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(182, 182, 182);
+}
+
+h1{
+    color: black;
+}
+
+h6{
+    background-color: gainsboro;
+}
+
+/* formats the title on the fieldset */
+legend{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #04AA6D;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+/* formats input boxes for forms */
+
+input[type=text]{
+    background-color: ghostwhite;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #04AA6D;
+  }
+
+
+/* formats the fieldset */ 
+fieldset{
+    border-radius: 25px;
+    width: 515px;
+    border-color: #04AA6D;
+    border-width: 3px;
+    border-style: solid;
+    background-color: gainsboro;
+}
+
+/* makes title black */
+#title{
+    color: black;
+}
+
+/* turns background to grey */
+.fieldsetbackground{
+    background-color: gainsboro;
+}
+
+
+/* formats navigation bar and fixes its position */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/*removes gaps between items in navigation bar */
+li{
+    float: left;
+}
+
+/*styling of navigation bar */
+a{
+    text-decoration-style: none;
+    color: white;
+}
+
+/*styling of navigation bar */
+li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:#333;
+}
+
+/* Changes colour of navigation when hovered over with cursor */
+li a:hover{
+    background-color: #111;
+}
+
+/* formatting the area where open ended text can be entered */
+textarea{
+    width: 500px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: gainsboro;
+    padding: 12px 20px;
+}
+
+/* Showing which page is active on the navigation bar */
+.active{
+    background-color: #04AA6D;
+}
+
+/* button styling*/
+button{
+    border-radius: 20px;
+    font-size: large;
+    border-color: black;
+    background-color: #04AA6D;
+}
+

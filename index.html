@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact form</form></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a class="active" href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+        </ul>
+    </header>
+    <br><br>
+    <!--Page title-->
+    <section> 
+        <h1 id="title">Contact Us</h1>
+    </section> 
+    <!--Form-->
+    <form action = confirm.html autocomplete="on" method="post">
+        <fieldset>
+           <legend>Contact Form</legend>
+        <!--First Name-->
+            <section>
+            <p class="fieldsetbackground">
+                <label class="fieldsetbackground" for="fname">
+                  <span class="fieldsetbackground">First name: </span>
+                </label>
+                <br>
+                <input class="fieldsetbackground" type="text" id="fname" name="firstname" required="true">
+            </p>
+            </section>
+        <!--Last Name-->
+            <section class="fieldsetbackground">
+            <p class="fieldsetbackground">
+                <label class="fieldsetbackground" for="lname">
+                  <span class="fieldsetbackground">Last name: </span>
+                </label>
+                <br>
+                <input type="text" id="lname" name="lastname" required="true">
+              </p>
+            </section>
+        <!--Email-->
+            <section class="fieldsetbackground">
+            <p class="fieldsetbackground">
+                <label class="fieldsetbackground" for="email">
+                  <span class="fieldsetbackground">E-mail: </span>
+                </label>
+                <br>
+                <input type="text" id="email" name="email" required="true">
+              </p>
+            </section>
+         <!--Gender-->
+            <div class="fieldsetbackground">
+                <p class="fieldsetbackground"> Gender at Birth</p>
+                <!--Male-->
+                <label class="fieldsetbackground" for="genderform">
+                <input type="radio" id="genderform" name="gender" value="male">Male
+                </label> 
+                <!--Female-->
+                <label class="fieldsetbackground" for="genderform">
+                <input type="radio" id="genderform" name="gender" value="female">Female
+                </label>
+                <!--Other-->
+                <label class="fieldsetbackground" for="genderform">
+                <input type="radio" id="genderform" name="gender" value="other">Other
+                </label>
+            </div> 
+        <br>
+        <!--Open Ended-->
+            <section class="fieldsetbackground">
+            <textarea name="message">Tell us what you think!
+            </textarea>
+            </section>
+        </fieldset> 
+        <br>
+        <!--Submit button-->
+        <section>
+            <p>
+                <button type="submit">Submit contact information</button>
+            </p>
+        </section>
+        
+    </form>
+</body>
+
